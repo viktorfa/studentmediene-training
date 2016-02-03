@@ -42,7 +42,7 @@ Lag din egen branch med følgende kommando
 ```
 Push denne branchen opp til github med  
 ```sh
-> git push origin ditt-navn
+> git git push -u origin ditt-navn # -u flagget sier at det er en ny branch på GitHub
 ```
 Nå ligger den ute for alle å se og du har en backup i skyen.
 
