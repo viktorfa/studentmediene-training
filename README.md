@@ -21,7 +21,7 @@ Installer django og start serveren med
 > pip install django
 > python manage.py runserver  
 ```
-Nå kom det sikkert en feilmelding fordi vi ikke har "migrert" databasen. Kjør derfor skriptet  
+Nå kom det sikkert en feilmelding fordi vi ikke har "migrert" databasen. Avslutt serveren og kjør skriptet  
 ```sh
 > python manage.py migrate  
 ```
