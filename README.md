@@ -8,6 +8,7 @@ Tulleprosjekt brukt til å lære litt om webutvikling samtidig som man bruker Gi
 - Installer er editor som f eks [PyCharm] - er gratis når du har @ntnu.no e-post
 - Importer dette prosjektet til en mappe du vil ha det i med følgende kommandoer
 ```sh
+> mkdir my-project-folder
 > cd my-project-folder  
 > virtualenv env  
 > source env/bin/activate  
