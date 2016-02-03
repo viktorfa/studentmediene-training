@@ -25,7 +25,12 @@ Nå kom det sikkert en feilmelding fordi vi ikke har "migrert" databasen. Avslut
 ```sh
 > python manage.py migrate  
 ```
-Det som skjer er at den lager tabeller i databasen som senere skal fylles med data. Hvilke tabeller den lager kan man lage selv, men nå var det kun de som følger med default på ethvert django-prosjekt.  Start nå serveren med  
+Det som skjer er at den lager tabeller i databasen som senere skal fylles med data. Hvilke tabeller den lager kan man lage selv, men nå var det kun de som følger med default på ethvert django-prosjekt.  
+For å se alle kommandoene som er mulig å gjøre med manage.py kan du kjøre
+```sh
+python manage.py --help
+```
+Start nå serveren med  
 ```sh
 > python manage.py runserver  
 ```
